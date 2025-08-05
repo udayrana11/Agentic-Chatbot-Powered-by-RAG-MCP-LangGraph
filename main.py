@@ -54,3 +54,6 @@ def load_langgraph_agenticai_app():
         except Exception as e:
              st.error(f"Error: Graph set up failed- {e}")
              return   
+
+if __name__ == "__main__":
+    load_langgraph_agenticai_app()
